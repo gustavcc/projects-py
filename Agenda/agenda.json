@@ -1,0 +1,24 @@
+{
+    "1": {
+        "nome": "Gustavo",
+        "endere\u00e7o": "Bjl",
+        "telefone": [
+            "(44)4444-4444"
+        ]
+    },
+    "2": {
+        "nome": "Ana",
+        "endere\u00e7o": "Bjl",
+        "telefone": [
+            "(00)0000-0000",
+            "(99)9999-9999"
+        ]
+    },
+    "3": {
+        "nome": "Stefanny",
+        "endere\u00e7o": "Bjl",
+        "telefone": [
+            "(33)3333-3333"
+        ]
+    }
+}
