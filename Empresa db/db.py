@@ -1,6 +1,5 @@
 import mysql.connector as mysql
 from colorama import Fore
-opa = 1
 
 class ConnEmpresa():
     def __init__(self):
