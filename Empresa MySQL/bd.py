@@ -1,7 +1,7 @@
 import mysql.connector as mysql
 from colorama import Fore
 
-class ConnEmpresa():
+class EmpresaBD():
     def __init__(self):
         self.connection = None
     
@@ -36,7 +36,7 @@ class ConnEmpresa():
         finally:
             self.disconnect()
     
-    def inserirFuncBD(self,mat,nome,salario):
+    def cadastrarFuncBD(self,mat,nome,salario):
         self.connect()
         try:
             querry = '''INSERT INTO Funcionarios (matricula, nome, salario)
@@ -73,18 +73,18 @@ class ConnEmpresa():
         finally:
             self.disconnect()
     
-    def mostrarFuncBD(self):
-        self.connect()
-        try:
-            querry = '''SELECT * FROM Funcionarios;'''
-            self.cursor.execute(querry)
-            funcionarios = self.cursor.fetchall()
-            for func in funcionarios:
-                print(func)
-        except mysql.Error as e:
-            print(Fore.RED,'Erro ao mostrar registros: ',e,Fore.RESET)
-        finally:
-            self.disconnect()
+    # def mostrarFuncBD(self):
+    #     self.connect()
+    #     try:
+    #         querry = '''SELECT * FROM Funcionarios;'''
+    #         self.cursor.execute(querry)
+    #         funcionarios = self.cursor.fetchall()
+    #         for func in funcionarios:
+    #             print(func)
+    #     except mysql.Error as e:
+    #         print(Fore.RED,'Erro ao mostrar registros: ',e,Fore.RESET)
+    #     finally:
+    #         self.disconnect()
     
     def ordenarFuncBD(self,option):
         self.connect()
@@ -182,6 +182,6 @@ class ConnEmpresa():
         finally:
             self.disconnect()
 
-bd = ConnEmpresa()
-if bd.existeFuncBD(0):
-    print('existe')
+# bd = EmpresaBD()
+# if bd.existeFuncBD(1):
+#     print('existe')
