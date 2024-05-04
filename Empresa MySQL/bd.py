@@ -1,7 +1,11 @@
 import mysql.connector as mysql
 from colorama import Fore
+from os import system
 
 class EmpresaBD():
+    
+    linha = '-'*40
+    
     def __init__(self):
         self.connection = None
     
@@ -14,13 +18,17 @@ class EmpresaBD():
                 database='empresa')
             self.cursor = self.connection.cursor()
         except mysql.Error as e:
-            print(Fore.RED,'Erro na conexão do banco: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro na conexão do banco: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
     
     def disconnect(self):
         if self.connection:
             self.connection.close()
         else:
-            print(Fore.RED+'Não há conexão estabelecida!'+Fore.RESET)
+            print(Fore.RED+'\nNão há conexão estabelecida!'+Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
     
     def criarTabelaBD(self):
         self.connect()
@@ -32,7 +40,9 @@ class EmpresaBD():
             );'''
             self.cursor.execute(querry)
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao criar tabela: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao criar tabela: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -43,21 +53,34 @@ class EmpresaBD():
                             VALUES (%s,%s,%s);'''
             self.cursor.execute(querry,(mat,nome,salario))
             self.connection.commit()
-            print(Fore.GREEN+'\nFuncionario inserido!\n'+Fore.RESET)
+            system('cls')
+            print(self.linha)
+            print('\nFuncionário cadastrado com sucesso!\n')
+            print(self.linha)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao inserir registro: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao inserir registro: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
-    def editarFuncBD(self,mat,nome,salario):
+    def editarFuncBD(self,mat=None,nome=None,salario=None):
         self.connect()
         try:
             querry = '''UPDATE Funcionarios SET nome=%s,salario=%s WHERE matricula=%s;'''
             self.cursor.execute(querry,(nome,salario, mat))
             self.connection.commit()
-            print(Fore.GREEN+'\nFuncionario editado!\n'+Fore.RESET)
+            print(self.linha)
+            print('\nFuncionário editado com sucesso!\n')
+            print(self.linha)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao editar registro: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao editar registro: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -67,24 +90,17 @@ class EmpresaBD():
             querry = '''DELETE FROM Funcionarios WHERE matricula=%s;'''
             self.cursor.execute(querry,(mat,))
             self.connection.commit()
-            print(Fore.GREEN+'\nFuncionario excluido!\n'+Fore.RESET)
+            print(self.linha)
+            print('\nFuncionário excluido com sucesso!\n')
+            print(self.linha)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao excluir registro: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao excluir registro: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
-    
-    # def mostrarFuncBD(self):
-    #     self.connect()
-    #     try:
-    #         querry = '''SELECT * FROM Funcionarios;'''
-    #         self.cursor.execute(querry)
-    #         funcionarios = self.cursor.fetchall()
-    #         for func in funcionarios:
-    #             print(func)
-    #     except mysql.Error as e:
-    #         print(Fore.RED,'Erro ao mostrar registros: ',e,Fore.RESET)
-    #     finally:
-    #         self.disconnect()
     
     def ordenarFuncBD(self,option):
         self.connect()
@@ -99,7 +115,9 @@ class EmpresaBD():
             for func in funcOrdenado:
                 print(func)
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao ordenar registros: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao ordenar registros: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -120,7 +138,9 @@ class EmpresaBD():
             for func in funcOrdenado:
                 print(func)
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao ordenar registros: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao ordenar registros: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -143,7 +163,9 @@ class EmpresaBD():
             for func in funcFiltrado:
                 print(func)
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao ordenar registros: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao ordenar registros: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -160,7 +182,9 @@ class EmpresaBD():
             for func in funcLista:
                 print(func)
         except mysql.Error as e:
-            print(Fore.RED,'Erro ao listar funcionarios: ',e,Fore.RESET)
+            print(Fore.RED,'\nErro ao listar funcionarios: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
     
@@ -172,16 +196,15 @@ class EmpresaBD():
             funcionarios = self.cursor.fetchall()
             existe = False
             for func in funcionarios:
-                # return mat==func[0] or False
                 if mat == func[0]:
                     existe = True
-                    break
-            return existe or False 
+            return existe
         except mysql.Error as e:
-            print(Fore.RED,'Não existe funcionários: ',e,Fore.RESET)
+            print(Fore.RED,'\nNão existe funcionários: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
         finally:
             self.disconnect()
 
-# bd = EmpresaBD()
-# if bd.existeFuncBD(1):
-#     print('existe')
+bd = EmpresaBD()
+bd.listarFuncBD('a')

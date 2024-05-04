@@ -3,6 +3,7 @@ from funcionario import Funcionario
 from os import system
 
 class Empresa():
+    banco = EmpresaBD()
     
     linha = '-'*40
     
@@ -19,12 +20,34 @@ class Empresa():
 [0] - Sair
 {linha}'''
 
-    # def __init__(self):
-    #     self.bd = EmpresaBD()
-    #     self.funcionario = Funcionario()
-
     def cadastrarFun(self):
-        pass
+        while True:
+            system('cls')
+            print(f'''
+{self.linha}
+{'Cadastro':^40}
+{self.linha}''')
+            
+            op = input('''
+[1] - Cadastrar
+[0] - Sair
+: ''').strip()    
+            match op:
+                case '1':
+                    system('cls')
+                    mat = input('\nInsira a matricula\n: ').capitalize().strip()
+                    nome = input('\nInsira o nome\n: ').capitalize().strip()
+                    salario = input('\nInsira o salario\n: ').capitalize().strip()
+                    self.fun = Funcionario(mat, nome, salario)
+                    self.banco.cadastrarFuncBD(self.fun.getMat(), self.fun.getNome(), self.fun.getSalario())
+                case '0':
+                    print(self.linha)
+                    break
+                case _:
+                    print('\nInsria uma opção válida!\n')
+                    print(self.linha)
+                    print('\nAperte qualquer tecla pra continuar...')
+                    input()
     
     def editarFun(self):
         pass
@@ -41,11 +64,18 @@ class Empresa():
     def filtrarFun(self):
         pass
     
+    def validarMat(self, mat):
+        try:
+            mat = int(mat)
+            return True
+        except ValueError: 
+            return False
+    
     def iniciar(self):
         while True:
             system('cls')
             print(self.menu)
-            op = input('\nSelecione uma opção\n:')
+            op = input('\nSelecione uma opção\n: ')
             match op:
                 case '1':
                     self.cadastrarFun()
