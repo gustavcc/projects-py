@@ -53,7 +53,6 @@ class EmpresaBD():
                             VALUES (%s,%s,%s);'''
             self.cursor.execute(querry,(mat,nome,salario))
             self.connection.commit()
-            system('cls')
             print(self.linha)
             print('\nFuncionário cadastrado com sucesso!\n')
             print(self.linha)
@@ -66,11 +65,11 @@ class EmpresaBD():
         finally:
             self.disconnect()
     
-    def editarFuncBD(self,mat=None,nome=None,salario=None):
+    def editarFuncBD(self,mat,nome,salario,mat_op):
         self.connect()
         try:
-            querry = '''UPDATE Funcionarios SET nome=%s,salario=%s WHERE matricula=%s;'''
-            self.cursor.execute(querry,(nome,salario, mat))
+            querry = '''UPDATE Funcionarios SET matricula=%s, nome=%s,salario=%s WHERE matricula=%s;'''
+            self.cursor.execute(querry,(mat,nome,salario, mat_op))
             self.connection.commit()
             print(self.linha)
             print('\nFuncionário editado com sucesso!\n')
@@ -205,6 +204,37 @@ class EmpresaBD():
             input()
         finally:
             self.disconnect()
+    
+    def buscaFuncAtributo(self,mat):
+        self.connect()
+        try:
+            querry = '''SELECT * FROM Funcionarios WHERE matricula=%s;'''
+            self.cursor.execute(querry,(mat,))
+            funcionario = self.cursor.fetchall()
+            return funcionario[0]
+        except mysql.Error as e:
+            print(Fore.RED,'\nNão existe funcionários: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
+        finally:
+            self.disconnect()
+    
+    def bancoVazio(self):
+        self.connect()
+        try:
+            querry = '''SELECT * FROM Funcionarios;'''
+            self.cursor.execute(querry)
+            funcionarios = self.cursor.fetchall()
+            if funcionarios:
+                return False
+            return True
+            
+        except mysql.Error as e:
+            print(Fore.RED,'\nNão existe funcionários: ',e,Fore.RESET)
+            print('Aperte qualquer tecla pra continuar...')
+            input()
+        finally:
+            self.disconnect()
 
 bd = EmpresaBD()
-bd.listarFuncBD('a')
+bd.buscaFuncAtributo(1)

@@ -39,25 +39,29 @@ class Funcionario():
         self.__mat = int(novaMat)
         
     def setNome(self, novoNome):
-        while True:
-            if novoNome=='' or novoNome==' ':
-                print(self.linha)
-                novoNome = input('\nNome inválido.\nInsira um novo\n: ').strip()
-            else:
-                break
-        self.__nome = novoNome
-        
-    def setSalario(self, novoSalario):
-        while True:
-            try:
-                novoSalario==float(novoSalario)
-                if  novoSalario=='' or novoSalario==' ' or float(novoSalario)<0 or float(novoSalario)==0:
+            while True:
+                if novoNome=='' or novoNome==' ':
                     print(self.linha)
-                    novoSalario = float(input('\nSalario inválido.\nInsira um novo\n: ').strip())
+                    novoNome = input('\nNome inválido.\nInsira um novo\n: ').strip()
                 else:
                     break
-            except ValueError: 
-                print(self.linha)
-                novoSalario = input('\nSalario inválido.\nInsira um novo\n: ').strip()
-                continue
-        self.__salario = novoSalario
+            self.__nome = novoNome
+    
+    def setSalario(self, novoSalario):
+            while True:
+                try:
+                    novoSalario==float(novoSalario)
+                    if novoSalario=='' or novoSalario==' ' or float(novoSalario)<0 or float(novoSalario)==0:
+                        print(self.linha)
+                        novoSalario = float(input('\nSalario inválido.\nInsira um novo\n: ').strip())
+                    else:
+                        break
+                except ValueError: 
+                    print(self.linha)
+                    novoSalario = input('\nSalario inválido.\nInsira um novo\n: ').strip()
+                    continue
+            self.__salario = novoSalario
+        
+    def setMatSemVerificar(self, novaMat):
+        
+        self.__mat = int(novaMat)
