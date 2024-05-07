@@ -1,10 +1,3 @@
-import math
-
-
-#     #* operator ternary
-#     if list[index] > list[index+1] if index+1 < len(list) else None:
-
-
 list = [3,0,1,4,2,8,7,5]
 
 def insertion_sort(list):

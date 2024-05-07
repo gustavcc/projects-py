@@ -9,8 +9,8 @@ class Funcionario():
     
     __slots__ = ['__mat','__nome','__salario']
     
-    def __init__ (self,mat, nome, salario):
-        self.setMat(mat)
+    def __init__ (self,mat, nome, salario, matEdit=None):
+        self.setMat(mat,matEdit)
         self.setNome(nome)
         self.setSalario(salario)
     
@@ -21,11 +21,11 @@ class Funcionario():
     def getSalario(self):
         return self.__salario
     
-    def setMat(self, novaMat):
+    def setMat(self, novaMat, matEdit=None):
         while True:
             try:
                 novaMat = int(novaMat)
-                if self.banco.existeFuncBD(int(novaMat)):
+                if self.banco.existeFuncBD(int(novaMat)) and novaMat!=matEdit:
                     system('cls')
                     self.banco.listarFuncBD()
                     print(self.linha)
@@ -61,7 +61,3 @@ class Funcionario():
                     novoSalario = input('\nSalario inválido.\nInsira um novo\n: ').strip()
                     continue
             self.__salario = novoSalario
-        
-    def setMatSemVerificar(self, novaMat):
-        
-        self.__mat = int(novaMat)
