@@ -1,0 +1,101 @@
+Nome do produto,Descrição,Categoria,Código do produto,Peso (em kg),Dimensões (L x A x P),Preço,Quantidade em estoque,Data de validade,Cor,Tamanho,Material,Fabricante,País de origem,Observações,Código de barras,Localização no armazém
+Extra Bolsa,Última moda da estação.,Calçados,PROD1000,"1,78",30x44x47,"298,88",51,2023-11-01,Branco,Médio,Silicone,Marca B,EUA,Nenhuma,12345678226,Estante 3 Prateleira 5
+Master Boné,Última moda da estação.,Roupas,PROD1001,"1,67",44x37x24,"427,93",60,2025-05-01,Vermelho,Grande,Couro,Marca A,China,Nenhuma,12345671488,Estante 10 Prateleira 4
+Ultra Óculos,Última moda da estação.,Roupas,PROD1002,"2,69",12x37x46,"179,07",12,2023-06-01,Preto,Médio,Poliéster,Marca A,Brasil,Nenhuma,12345676651,Estante 7 Prateleira 4
+Mega Boné,Feito com material de alta qualidade.,Roupas,PROD1003,"0,94",15x43x21,"457,19",53,2023-06-01,Branco,Pequeno,Poliéster,Marca B,China,Nenhuma,12345678409,Estante 9 Prateleira 4
+Mega Camisa,Última moda da estação.,Calçados,PROD1004,"2,1",43x27x23,"293,41",65,2023-05-01,Branco,Pequeno,Silicone,Marca B,China,Nenhuma,12345675708,Estante 9 Prateleira 3
+Turbo Bolsa,Última moda da estação.,Calçados,PROD1005,"2,74",11x12x33,"496,65",49,2023-10-01,Verde,Grande,Poliéster,Marca B,EUA,Nenhuma,12345671193,Estante 9 Prateleira 4
+Master Calça,Perfeito para uso diário.,Calçados,PROD1006,"0,64",38x21x11,"132,74",83,2023-05-01,Azul,Grande,Silicone,Marca B,Brasil,Nenhuma,12345679465,Estante 10 Prateleira 2
+Master Tênis,Perfeito para uso diário.,Roupas,PROD1007,"1,76",45x21x30,"239,6",90,2025-08-01,Vermelho,Médio,Couro,Marca C,China,Nenhuma,12345678299,Estante 10 Prateleira 1
+Extra Calça,Última moda da estação.,Roupas,PROD1008,"2,24",28x48x27,"319,11",75,2025-08-01,Branco,Grande,Silicone,Marca A,EUA,Nenhuma,12345676330,Estante 6 Prateleira 4
+Ultra Boné,Feito com material de alta qualidade.,Calçados,PROD1009,"2,85",28x40x30,"365,11",34,2023-11-01,Branco,Pequeno,Couro,Marca B,China,Nenhuma,12345677691,Estante 1 Prateleira 2
+Mega Tênis,Feito com material de alta qualidade.,Calçados,PROD1010,"0,64",14x37x21,"100,4",79,2023-05-01,Verde,Pequeno,Algodão,Marca B,EUA,Nenhuma,12345673696,Estante 5 Prateleira 3
+Super Calça,Confortável e estiloso.,Calçados,PROD1011,"0,6",36x48x22,"276,23",75,2024-08-01,Branco,Médio,Silicone,Marca C,China,Nenhuma,12345679776,Estante 2 Prateleira 3
+Turbo Bolsa,Confortável e estiloso.,Roupas,PROD1012,"2,32",48x17x25,"202,91",70,2024-06-01,Preto,Médio,Couro,Marca C,China,Nenhuma,12345672529,Estante 2 Prateleira 4
+Ultra Bolsa,Última moda da estação.,Roupas,PROD1013,"1,74",14x14x28,"397,32",98,2025-04-01,Branco,Pequeno,Algodão,Marca C,China,Nenhuma,12345679009,Estante 2 Prateleira 1
+Ultra Boné,Perfeito para uso diário.,Roupas,PROD1014,"1,81",31x50x47,"338,77",48,2024-03-01,Branco,Grande,Couro,Marca B,Brasil,Nenhuma,12345672296,Estante 3 Prateleira 3
+Extra Óculos,Design exclusivo.,Calçados,PROD1015,"2,34",30x41x21,"484,97",20,2024-09-01,Preto,Pequeno,Algodão,Marca A,China,Nenhuma,12345677801,Estante 5 Prateleira 5
+Power Camisa,Perfeito para uso diário.,Acessórios,PROD1016,"0,74",32x20x37,"324,74",19,2024-02-01,Vermelho,Pequeno,Couro,Marca A,Brasil,Nenhuma,12345676073,Estante 6 Prateleira 3
+Turbo Óculos,Feito com material de alta qualidade.,Roupas,PROD1017,"1,97",32x20x20,"207,14",12,2023-08-01,Verde,Pequeno,Algodão,Marca B,Brasil,Nenhuma,12345672226,Estante 9 Prateleira 1
+Super Boné,Última moda da estação.,Calçados,PROD1018,"2,54",18x27x45,"221,06",0,2025-07-01,Verde,Pequeno,Couro,Marca C,China,Nenhuma,12345679717,Estante 9 Prateleira 2
+Turbo Boné,Feito com material de alta qualidade.,Roupas,PROD1019,"2,08",29x18x12,"495,97",98,2023-05-01,Verde,Grande,Poliéster,Marca A,EUA,Nenhuma,12345671596,Estante 5 Prateleira 4
+Extra Camisa,Perfeito para uso diário.,Acessórios,PROD1020,"2,32",43x30x49,"172,41",19,2025-12-01,Branco,Médio,Couro,Marca B,Brasil,Nenhuma,12345671156,Estante 8 Prateleira 3
+Extra Relógio,Feito com material de alta qualidade.,Roupas,PROD1021,"2,57",23x26x15,"221,15",59,2025-04-01,Azul,Pequeno,Poliéster,Marca C,China,Nenhuma,12345679690,Estante 2 Prateleira 3
+Power Boné,Feito com material de alta qualidade.,Calçados,PROD1022,"0,96",36x42x30,"415,71",98,2024-12-01,Branco,Grande,Silicone,Marca C,Brasil,Nenhuma,12345673112,Estante 6 Prateleira 2
+Super Relógio,Design exclusivo.,Roupas,PROD1023,"2,18",21x40x38,"252,23",4,2023-04-01,Preto,Médio,Silicone,Marca C,Brasil,Nenhuma,12345671042,Estante 8 Prateleira 1
+Turbo Relógio,Última moda da estação.,Roupas,PROD1024,"2,56",14x30x34,"459,31",1,2023-03-01,Verde,Médio,Poliéster,Marca C,Brasil,Nenhuma,12345673160,Estante 10 Prateleira 2
+Power Relógio,Feito com material de alta qualidade.,Acessórios,PROD1025,"2,02",39x11x16,"216,11",24,2025-07-01,Verde,Grande,Algodão,Marca C,China,Nenhuma,12345674498,Estante 9 Prateleira 3
+Ultra Relógio,Confortável e estiloso.,Calçados,PROD1026,"0,68",25x39x41,340,96,2024-05-01,Preto,Grande,Couro,Marca C,EUA,Nenhuma,12345673819,Estante 10 Prateleira 3
+Turbo Camisa,Última moda da estação.,Acessórios,PROD1027,"0,56",44x26x26,"148,19",11,2025-12-01,Branco,Médio,Couro,Marca B,Brasil,Nenhuma,12345675270,Estante 9 Prateleira 1
+Master Óculos,Última moda da estação.,Calçados,PROD1028,"2,64",34x29x11,"261,92",94,2024-07-01,Vermelho,Médio,Algodão,Marca C,Brasil,Nenhuma,12345672598,Estante 4 Prateleira 4
+Turbo Calça,Última moda da estação.,Calçados,PROD1029,"2,25",34x18x38,"136,47",50,2023-08-01,Preto,Pequeno,Algodão,Marca B,Brasil,Nenhuma,12345672822,Estante 2 Prateleira 4
+Power Calça,Design exclusivo.,Acessórios,PROD1030,"1,09",11x34x21,"394,01",9,2025-11-01,Azul,Pequeno,Poliéster,Marca A,EUA,Nenhuma,12345677732,Estante 5 Prateleira 3
+Mega Bolsa,Feito com material de alta qualidade.,Roupas,PROD1031,"0,73",17x16x12,"167,66",47,2025-12-01,Verde,Pequeno,Couro,Marca B,EUA,Nenhuma,12345678068,Estante 4 Prateleira 3
+Master Bolsa,Feito com material de alta qualidade.,Calçados,PROD1032,"0,6",41x33x37,"429,18",16,2025-12-01,Verde,Médio,Silicone,Marca B,EUA,Nenhuma,12345677883,Estante 4 Prateleira 4
+Power Calça,Feito com material de alta qualidade.,Calçados,PROD1033,"2,56",36x31x19,"484,32",17,2023-06-01,Branco,Pequeno,Poliéster,Marca A,China,Nenhuma,12345673631,Estante 1 Prateleira 4
+Power Calça,Perfeito para uso diário.,Roupas,PROD1034,"0,98",26x31x22,"150,86",13,2025-06-01,Branco,Grande,Silicone,Marca C,China,Nenhuma,12345678380,Estante 5 Prateleira 4
+Extra Camisa,Feito com material de alta qualidade.,Calçados,PROD1035,"2,6",27x19x32,"212,43",5,2025-09-01,Verde,Grande,Silicone,Marca C,Brasil,Nenhuma,12345678408,Estante 7 Prateleira 1
+Power Óculos,Design exclusivo.,Calçados,PROD1036,"2,33",42x43x46,"339,48",3,2023-03-01,Azul,Médio,Couro,Marca C,EUA,Nenhuma,12345676984,Estante 2 Prateleira 3
+Turbo Camisa,Feito com material de alta qualidade.,Roupas,PROD1037,"0,76",15x11x12,"230,77",14,2025-09-01,Vermelho,Grande,Silicone,Marca B,China,Nenhuma,12345677265,Estante 5 Prateleira 1
+Turbo Relógio,Última moda da estação.,Roupas,PROD1038,"1,12",41x28x13,"256,77",72,2023-10-01,Verde,Médio,Poliéster,Marca C,Brasil,Nenhuma,12345675893,Estante 8 Prateleira 5
+Extra Bolsa,Design exclusivo.,Calçados,PROD1039,"1,43",49x43x18,"115,63",97,2025-07-01,Verde,Pequeno,Couro,Marca B,EUA,Nenhuma,12345673492,Estante 4 Prateleira 1
+Ultra Tênis,Feito com material de alta qualidade.,Roupas,PROD1040,"2,03",42x21x26,"103,68",64,2024-03-01,Branco,Pequeno,Algodão,Marca C,China,Nenhuma,12345675260,Estante 6 Prateleira 4
+Ultra Tênis,Confortável e estiloso.,Roupas,PROD1041,"0,74",38x19x32,"253,31",72,2025-08-01,Preto,Pequeno,Poliéster,Marca A,EUA,Nenhuma,12345674205,Estante 5 Prateleira 4
+Mega Bolsa,Confortável e estiloso.,Calçados,PROD1042,"2,46",40x25x32,"449,42",83,2024-02-01,Verde,Grande,Poliéster,Marca C,Brasil,Nenhuma,12345677441,Estante 3 Prateleira 4
+Power Relógio,Design exclusivo.,Roupas,PROD1043,"0,66",34x37x36,"465,33",57,2025-05-01,Branco,Médio,Couro,Marca B,China,Nenhuma,12345672873,Estante 9 Prateleira 5
+Master Tênis,Confortável e estiloso.,Calçados,PROD1044,"1,8",49x27x21,"112,57",96,2023-09-01,Preto,Grande,Couro,Marca C,EUA,Nenhuma,12345674365,Estante 10 Prateleira 1
+Extra Tênis,Design exclusivo.,Acessórios,PROD1045,"2,7",11x12x29,"454,72",87,2023-04-01,Azul,Grande,Algodão,Marca A,EUA,Nenhuma,12345672042,Estante 8 Prateleira 1
+Super Bolsa,Confortável e estiloso.,Calçados,PROD1046,"1,83",16x44x25,"483,52",51,2024-07-01,Vermelho,Grande,Couro,Marca B,EUA,Nenhuma,12345677028,Estante 2 Prateleira 1
+Turbo Calça,Feito com material de alta qualidade.,Acessórios,PROD1047,"1,16",32x50x25,"492,35",31,2025-04-01,Azul,Grande,Algodão,Marca C,EUA,Nenhuma,12345672525,Estante 5 Prateleira 5
+Mega Bolsa,Design exclusivo.,Calçados,PROD1048,"0,58",21x29x19,"206,71",7,2023-10-01,Verde,Médio,Algodão,Marca A,EUA,Nenhuma,12345678436,Estante 6 Prateleira 4
+Super Tênis,Última moda da estação.,Calçados,PROD1049,"1,79",23x42x10,"440,53",62,2023-02-01,Preto,Pequeno,Algodão,Marca C,China,Nenhuma,12345676753,Estante 4 Prateleira 5
+Master Tênis,Feito com material de alta qualidade.,Acessórios,PROD1050,"1,92",42x47x39,"113,25",64,2025-12-01,Preto,Médio,Algodão,Marca C,EUA,Nenhuma,12345675397,Estante 9 Prateleira 2
+Turbo Tênis,Perfeito para uso diário.,Calçados,PROD1051,"1,68",17x26x29,"330,88",82,2023-12-01,Verde,Médio,Poliéster,Marca A,EUA,Nenhuma,12345676364,Estante 5 Prateleira 5
+Mega Camisa,Perfeito para uso diário.,Acessórios,PROD1052,"2,05",38x35x19,"434,67",7,2024-01-01,Azul,Médio,Poliéster,Marca A,Brasil,Nenhuma,12345675129,Estante 6 Prateleira 2
+Super Relógio,Design exclusivo.,Calçados,PROD1053,"2,9",21x47x24,"470,28",32,2023-12-01,Azul,Pequeno,Silicone,Marca A,Brasil,Nenhuma,12345673585,Estante 5 Prateleira 2
+Power Relógio,Perfeito para uso diário.,Acessórios,PROD1054,"1,02",48x38x38,"372,34",57,2023-06-01,Vermelho,Grande,Algodão,Marca A,Brasil,Nenhuma,12345677181,Estante 8 Prateleira 5
+Power Boné,Design exclusivo.,Acessórios,PROD1055,"1,14",47x21x46,"131,48",44,2023-06-01,Azul,Grande,Silicone,Marca A,China,Nenhuma,12345676405,Estante 5 Prateleira 2
+Ultra Relógio,Confortável e estiloso.,Acessórios,PROD1056,"0,68",27x12x17,"93,68",73,2025-10-01,Branco,Grande,Algodão,Marca A,Brasil,Nenhuma,12345671248,Estante 8 Prateleira 2
+Super Bolsa,Confortável e estiloso.,Roupas,PROD1057,"1,94",37x34x49,"155,67",37,2024-05-01,Preto,Médio,Silicone,Marca A,Brasil,Nenhuma,12345675728,Estante 2 Prateleira 3
+Turbo Relógio,Última moda da estação.,Acessórios,PROD1058,"2,63",11x44x19,"408,53",36,2025-01-01,Branco,Grande,Couro,Marca B,EUA,Nenhuma,12345679971,Estante 5 Prateleira 2
+Extra Relógio,Confortável e estiloso.,Acessórios,PROD1059,"1,37",23x18x24,"332,37",78,2024-01-01,Azul,Grande,Couro,Marca B,China,Nenhuma,12345677905,Estante 2 Prateleira 2
+Turbo Relógio,Última moda da estação.,Calçados,PROD1060,"2,97",29x24x33,356,50,2025-06-01,Verde,Médio,Couro,Marca A,EUA,Nenhuma,12345674174,Estante 2 Prateleira 3
+Ultra Boné,Design exclusivo.,Calçados,PROD1061,"0,71",16x48x28,"242,42",71,2024-12-01,Azul,Pequeno,Algodão,Marca C,EUA,Nenhuma,12345671913,Estante 9 Prateleira 2
+Extra Tênis,Feito com material de alta qualidade.,Calçados,PROD1062,"2,45",45x31x42,"120,12",78,2024-05-01,Preto,Médio,Silicone,Marca C,China,Nenhuma,12345678423,Estante 3 Prateleira 5
+Super Bolsa,Design exclusivo.,Acessórios,PROD1063,"0,8",30x43x16,"439,1",34,2023-09-01,Verde,Pequeno,Couro,Marca B,Brasil,Nenhuma,12345676751,Estante 2 Prateleira 1
+Master Relógio,Perfeito para uso diário.,Roupas,PROD1064,"0,57",35x14x30,"474,17",14,2024-12-01,Vermelho,Grande,Silicone,Marca B,Brasil,Nenhuma,12345679390,Estante 4 Prateleira 4
+Super Relógio,Design exclusivo.,Roupas,PROD1065,"0,95",34x20x29,"277,2",80,2025-05-01,Branco,Pequeno,Algodão,Marca B,China,Nenhuma,12345679439,Estante 8 Prateleira 1
+Master Óculos,Última moda da estação.,Acessórios,PROD1066,"2,79",34x21x40,"81,53",26,2024-01-01,Preto,Pequeno,Couro,Marca B,China,Nenhuma,12345673139,Estante 9 Prateleira 4
+Super Boné,Última moda da estação.,Roupas,PROD1067,"1,34",47x50x34,"256,64",9,2024-01-01,Branco,Médio,Silicone,Marca C,EUA,Nenhuma,12345675529,Estante 9 Prateleira 3
+Master Boné,Confortável e estiloso.,Roupas,PROD1068,"2,92",33x38x11,"299,07",86,2025-01-01,Vermelho,Pequeno,Algodão,Marca B,EUA,Nenhuma,12345671179,Estante 2 Prateleira 5
+Turbo Calça,Última moda da estação.,Acessórios,PROD1069,"2,17",28x49x12,"452,84",68,2024-01-01,Branco,Médio,Silicone,Marca B,Brasil,Nenhuma,12345679654,Estante 1 Prateleira 1
+Turbo Camisa,Última moda da estação.,Roupas,PROD1070,"1,24",22x34x17,"357,73",48,2025-08-01,Vermelho,Médio,Silicone,Marca A,China,Nenhuma,12345676584,Estante 9 Prateleira 2
+Extra Calça,Feito com material de alta qualidade.,Roupas,PROD1071,"1,73",15x21x12,"323,55",37,2023-04-01,Branco,Pequeno,Poliéster,Marca A,China,Nenhuma,12345674434,Estante 4 Prateleira 5
+Turbo Boné,Confortável e estiloso.,Calçados,PROD1072,"1,93",28x14x12,"124,68",79,2023-01-01,Azul,Médio,Poliéster,Marca A,Brasil,Nenhuma,12345679262,Estante 8 Prateleira 4
+Extra Calça,Confortável e estiloso.,Acessórios,PROD1073,"2,47",19x37x29,"225,38",64,2023-01-01,Verde,Pequeno,Poliéster,Marca A,Brasil,Nenhuma,12345671464,Estante 2 Prateleira 4
+Power Óculos,Perfeito para uso diário.,Acessórios,PROD1074,"2,49",39x49x45,"362,81",28,2023-12-01,Branco,Pequeno,Algodão,Marca A,Brasil,Nenhuma,12345676326,Estante 3 Prateleira 5
+Master Relógio,Confortável e estiloso.,Acessórios,PROD1075,"0,96",32x14x13,"443,52",54,2024-03-01,Azul,Médio,Algodão,Marca C,China,Nenhuma,12345678732,Estante 9 Prateleira 5
+Power Boné,Perfeito para uso diário.,Roupas,PROD1076,"0,95",33x48x41,"219,08",60,2025-03-01,Branco,Grande,Poliéster,Marca C,EUA,Nenhuma,12345675411,Estante 5 Prateleira 4
+Super Boné,Design exclusivo.,Calçados,PROD1077,"2,83",49x11x25,"167,15",69,2025-09-01,Branco,Grande,Couro,Marca A,China,Nenhuma,12345677148,Estante 8 Prateleira 1
+Power Tênis,Design exclusivo.,Roupas,PROD1078,"1,49",10x46x29,"379,52",34,2024-08-01,Vermelho,Médio,Couro,Marca C,Brasil,Nenhuma,12345673413,Estante 6 Prateleira 2
+Master Calça,Feito com material de alta qualidade.,Roupas,PROD1079,"1,65",43x16x40,"151,72",57,2025-07-01,Vermelho,Médio,Algodão,Marca B,Brasil,Nenhuma,12345679405,Estante 8 Prateleira 2
+Mega Relógio,Design exclusivo.,Roupas,PROD1080,"2,09",49x11x37,"128,37",78,2023-10-01,Azul,Médio,Couro,Marca C,EUA,Nenhuma,12345673633,Estante 6 Prateleira 5
+Master Óculos,Última moda da estação.,Roupas,PROD1081,"1,56",34x43x33,"290,15",99,2025-11-01,Branco,Médio,Couro,Marca B,Brasil,Nenhuma,12345674003,Estante 9 Prateleira 5
+Mega Calça,Design exclusivo.,Roupas,PROD1082,"1,68",10x34x40,"123,39",89,2024-05-01,Preto,Médio,Algodão,Marca C,EUA,Nenhuma,12345676129,Estante 6 Prateleira 4
+Master Calça,Confortável e estiloso.,Acessórios,PROD1083,"2,05",34x33x26,"324,75",25,2023-03-01,Branco,Médio,Couro,Marca A,EUA,Nenhuma,12345677125,Estante 6 Prateleira 3
+Extra Camisa,Confortável e estiloso.,Calçados,PROD1084,"1,72",25x10x14,"66,51",51,2023-12-01,Verde,Médio,Silicone,Marca C,EUA,Nenhuma,12345673445,Estante 4 Prateleira 3
+Mega Boné,Última moda da estação.,Acessórios,PROD1085,"1,63",27x22x15,"450,39",89,2024-09-01,Preto,Médio,Poliéster,Marca A,EUA,Nenhuma,12345672149,Estante 4 Prateleira 4
+Turbo Calça,Feito com material de alta qualidade.,Acessórios,PROD1086,"1,61",32x45x40,"205,2",28,2024-04-01,Preto,Médio,Algodão,Marca C,EUA,Nenhuma,12345675773,Estante 2 Prateleira 1
+Turbo Óculos,Design exclusivo.,Calçados,PROD1087,"1,46",21x33x32,"283,08",6,2024-02-01,Azul,Grande,Algodão,Marca B,EUA,Nenhuma,12345671857,Estante 8 Prateleira 2
+Mega Óculos,Última moda da estação.,Roupas,PROD1088,"2,18",45x39x20,"385,89",4,2024-12-01,Azul,Grande,Algodão,Marca B,EUA,Nenhuma,12345674997,Estante 6 Prateleira 1
+Master Calça,Perfeito para uso diário.,Roupas,PROD1089,"1,04",49x20x33,"90,68",65,2024-04-01,Verde,Grande,Couro,Marca B,Brasil,Nenhuma,12345675959,Estante 7 Prateleira 1
+Super Relógio,Feito com material de alta qualidade.,Calçados,PROD1090,"1,75",26x15x47,"67,34",76,2024-11-01,Azul,Grande,Poliéster,Marca C,Brasil,Nenhuma,12345677596,Estante 9 Prateleira 1
+Power Relógio,Confortável e estiloso.,Roupas,PROD1091,"1,15",24x47x22,"56,08",90,2023-01-01,Vermelho,Pequeno,Silicone,Marca C,Brasil,Nenhuma,12345678135,Estante 2 Prateleira 1
+Ultra Bolsa,Perfeito para uso diário.,Calçados,PROD1092,"0,76",24x20x23,"193,57",43,2025-04-01,Vermelho,Grande,Poliéster,Marca A,Brasil,Nenhuma,12345674934,Estante 3 Prateleira 5
+Turbo Bolsa,Design exclusivo.,Acessórios,PROD1093,"2,75",34x33x49,"484,09",70,2024-06-01,Verde,Pequeno,Couro,Marca A,EUA,Nenhuma,12345671996,Estante 2 Prateleira 2
+Extra Tênis,Confortável e estiloso.,Acessórios,PROD1094,"0,92",40x17x26,"459,4",40,2023-02-01,Verde,Pequeno,Algodão,Marca C,China,Nenhuma,12345678402,Estante 1 Prateleira 3
+Turbo Relógio,Confortável e estiloso.,Roupas,PROD1095,"1,28",35x36x37,"334,93",91,2023-03-01,Vermelho,Grande,Poliéster,Marca B,EUA,Nenhuma,12345671474,Estante 2 Prateleira 5
+Mega Relógio,Design exclusivo.,Calçados,PROD1096,"2,14",17x14x46,"72,2",32,2024-12-01,Branco,Grande,Algodão,Marca C,Brasil,Nenhuma,12345679727,Estante 9 Prateleira 3
+Super Bolsa,Última moda da estação.,Acessórios,PROD1097,"0,8",31x17x27,"238,75",8,2025-01-01,Branco,Grande,Silicone,Marca A,Brasil,Nenhuma,12345679890,Estante 8 Prateleira 2
+Turbo Relógio,Feito com material de alta qualidade.,Roupas,PROD1098,"2,76",50x38x12,"356,74",86,2025-03-01,Verde,Grande,Poliéster,Marca B,Brasil,Nenhuma,12345676204,Estante 1 Prateleira 1
+Power Calça,Confortável e estiloso.,Calçados,PROD1099,"1,84",46x23x18,"411,47",44,2025-04-01,Azul,Médio,Silicone,Marca B,EUA,Nenhuma,12345676155,Estante 10 Prateleira 3
