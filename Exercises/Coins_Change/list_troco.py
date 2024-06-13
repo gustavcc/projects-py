@@ -1,4 +1,4 @@
-# a menor quantidade de moedas possiveis para um troco
+# a menor quantidade de moedas possiveis para um troco with conda
 
 def minTroco(troco):
     moedas_troco = [1,5,10,25,50]
