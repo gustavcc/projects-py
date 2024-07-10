@@ -1,4 +1,4 @@
-from bd import EmpresaBD
+from bdMySql import EmpresaBD
 from os import system 
 
 class Funcionario():

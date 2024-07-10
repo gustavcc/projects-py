@@ -12,10 +12,11 @@ class EmpresaBD():
     def connect(self):
         try:
             self.connection = mysql.connect(
-                host='localhost',
-                username='root',
-                password='admin',
-                database='empresa')
+                host="localhost",
+                username="root",
+                password="admin",
+                database="empresa"
+                )
             self.cursor = self.connection.cursor()
         except mysql.Error as e:
             print(Fore.RED,'\nErro na conexão do banco: ',e,Fore.RESET)
@@ -279,8 +280,4 @@ class EmpresaBD():
             print('Aperte qualquer tecla pra continuar...')
             input()
         finally:
-            self.disconnect()
-
-# bd = EmpresaBD()
-# if bd.existeFuncNomeBD('sla'):
-#     print('existe')
+            self.disconnect() 
