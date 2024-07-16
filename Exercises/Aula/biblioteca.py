@@ -1,6 +1,8 @@
 import sqlite3
 from os import system
+from banco import DBConnection
 
-# class Biblioteca:
+class Biblioteca(DBConnection):
     
-#     def __init__(self, )
+    def __init__(self):
+        pass
