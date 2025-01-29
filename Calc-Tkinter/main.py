@@ -41,6 +41,4 @@ class Calculadora():
         # self.soma = str(self.fisrt + self.second)
         # self.result.set(self.soma)
 
-calculadora = Calculadora()
-
-calculadora.mainloop()
+Calculadora().mainloop()
